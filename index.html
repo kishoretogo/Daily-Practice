@@ -1,21 +1,167 @@
-
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>pokemon api</title>
-    <link rel="stylesheet" href= "./style.css">
-    
-    <h1><b>Pokemon</b></h1>
-   
-     <div id="poke_container" class="poke-container">
-
-     </div> 
-    
+    <title>Kishore</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
- <script src="./Scripts.js"></script>   
+
+    <!-- ------navbar-------- -->
+    <nav class="navbar sticky-sm-top navbar-expand-lg  bg-dark navbar-dark">
+        <div class="container">
+            <a href="" class="navbar-brand"><img src="./images/kishore3.png" width="40" height="45"></a>
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navmenu">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navmenu">
+                <ul class="navbar-nav ms-auto navbar-toggler-right">
+                    <li class="nav-items ms-3">
+                        <a href="#home" class="nav-link">Home</a>
+                    </li>
+                    <li class="nav-items ms-3">
+                        <a href="#about" class="nav-link">About</a>
+                    </li>
+                    <li class="nav-items ms-3">
+                        <a href="#services" class="nav-link">Services</a>
+                    </li>
+                    <li class="nav-items ms-3">
+                        <a href="#portfolio" class="nav-link">Portfolio</a>
+                    </li>
+                    <li class="nav-items ms-3">
+                        <a href="#contact" class="nav-link">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- ----------home--------- -->
+    <div id="particles-js">
+          <section  class="home text-light py-5 text-center text-sm-start" ;>
+            
+            <div class="container ">
+                <div class=" d-flex ">
+                    
+                    <div class="my-2 ms-auto align-self-center " >
+                        <h1 class="lead hello display-1 fw-bold" ><b> Hello!</b></h1>
+                        <h1 class=" fw-bold " style="sm-font-size: 50px;">I am <span class="text-warning  d-inline-block">Kishore Kumar.</span> </h1>
+                       
+                        <p class="my-4 fs-6" > <span class="text-warning">Frontend developer </span> <span class="d-inline-block " > who writes clean, elegant, and efficient code.</span><br>
+                            <span class="text-warning">UX designer</span> <span class="d-inline-block"> specialising in UI design and design systems.</span>  <br>
+                            <span class="text-warning">Photographer</span> <span class="d-inline-block"> with an intensely creative eye!</span> 
+                        </p>
+                    </div>
+                    
+                    
+                
+                </div>
+                
+            </div>
+            
+            <script src="./particles.js"></script>
+            <script src="./app.js"></script>
+        </section>
+        
+       
+    </div>
+    
+    
+
+    <!-- -------about---------- -->
+    <div id="about" class="py-5 ">
+        <div class="container px-4 px-lg-5">
+            <div class="row">
+                <div class="col-lg-6 col-sm-12">
+                 <img src="./images/IMG_ff1-2-(1).png" class="img-fluid" alt="">
+                </div>
+                <div class="col-lg-6 col-sm-12 text-light">
+                    <h1 class="display-4 fw-bold mt-3 mt-sm-0">About</h1>
+                   <p class="mt-lg-3">
+                    Hey, I'm Kishore Kumar. I am a front-end web developer, UX designer and Photographer. Passionate about photography, music and I love to build websites with minimal design and I'm always curious to learn more about new technologies and creative coding.
+                   </p>
+                   <div class="row d-flex justify-content-between mt-lg-4 ">
+                    <a class="col-3 btn btn-secondary text-wrap" href="#" role="button">Skills</a>
+                    <a class="col-3 btn btn-secondary text-wrap" href="#" role="button">Tools</a>
+                    <a class="col-3 btn btn-secondary text-wrap" href="#" role="button">Expirience</a>
+                    <a class="col-3 btn btn-secondary text-wrap" href="#" role="button">Education</a>
+                   </div>
+                   <div class="tab-contents list-group mt-md-4"  id="education">
+                    <ul class="list-unstyled">
+                      <li class="mb-sm-3">
+                        <span class="text-warning ">Web Development Bootcamp</span><br />Guvi Coding
+                        Bootcamp - Aug 2022
+                      </li>
+                      <li class="mb-sm-3">
+                        <span class="text-warning">UX/UI Design</span><br />Google Professional
+                        Certification - May 2022
+                      </li>
+                      <li class="mb-sm-3">
+                        <span class="text-warning">BE Aeronautical</span><br />Kumaraguru College of
+                        Technology - 2020
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- --------services---------- -->
+
+    <div id="services" class="py-5 bg-dark">
+        <div class="container px-4 px-lg-5">
+            <h1 class="display-4 fw-bold mt-3 mt-sm-0 text-light py-5">My Services</h1>
+            <div class="row d-flex justify-content-around py-5">
+
+                <div class="card bg-dark" style="width: 18rem;">
+                    <div class="card-body">
+                      <h5 class="card-title">Card title</h5>
+                      <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
+                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                      <a href="#" class="card-link">Card link</a>
+                      <a href="#" class="card-link">Another link</a>
+                    </div>
+                  </div>
+                  <div class="card" style="width: 18rem;">
+                    <div class="card-body">
+                      <h5 class="card-title">Card title</h5>
+                      <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
+                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                      <a href="#" class="card-link">Card link</a>
+                      <a href="#" class="card-link">Another link</a>
+                    </div>
+                  </div>
+                  <div class="card" style="width: 18rem;">
+                    <div class="card-body">
+                      <h5 class="card-title">Card title</h5>
+                      <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
+                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                      <a href="#" class="card-link">Card link</a>
+                      <a href="#" class="card-link">Another link</a>
+                    </div>
+                  </div>
+
+            </div>
+         </div>
+     </div>
+
+     
+
+
+
+    
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
 </body>
 </html>
